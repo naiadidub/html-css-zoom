@@ -13,7 +13,32 @@
 .head-icon{
     justify-content: flex-end;
 }
-.screens{
+main{
     width: 90%;
-    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
+.box{
+    width: calc(100% / 7 - 10px);
+    height: 15vh;
+    background-image:url(https://picsum.photos/id/3/200/300);
+    background-size: cover;
+    position: relative;
+    margin: 10px 5px;
+}
+.utente{
+    width: 50%;
+    background-color: grey;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
