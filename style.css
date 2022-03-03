@@ -19,6 +19,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    background-color: black;
 }
 .box{
     width: calc(100% / 7 - 10px);
@@ -39,6 +40,48 @@ main{
 }
 footer{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     height: 10vh;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+.foot-left{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;  
+}
+.foot-center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;  
+}
+.foot-right{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;  
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.mic{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 10px; 
+    color: white;
+}
+.logo{
+    font-size: 40px;
+}
+#share-screen{
+    color: green;
+}
+.fa-angle-up{
+    font-size:20px;
+}
+.red{
+    color: red;
+}
