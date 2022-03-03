@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug{
+    border: 1px solid black;
+}
+.headiv{
+    width: 100%;
+    display: flex;
+}
+.head-icon{
+    justify-content: flex-end;
+}
+.screens{
+    width: 90%;
+    
+}
