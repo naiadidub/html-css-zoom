@@ -3,15 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 .debug{
     border: 1px solid black;
 }
 .headiv{
+    
     width: 100%;
     display: flex;
+    justify-content: flex-end;
+    background-color: black;
 }
 .head-icon{
-    justify-content: flex-end;
+    background-color:grey ;
+    border-radius: 5px;
 }
 main{
     width: 90%;
@@ -39,6 +46,7 @@ main{
     font-size: 20px;
 }
 footer{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
